@@ -1,0 +1,45 @@
+body{
+    background:#000000;
+    color: #ffffff;
+}
+#artikel{
+    background: #fffefd;
+    padding: 20px;
+}
+h2 {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.penulis{
+    background: rgb(34,195,69);
+    background: linear-gradient(0deg, rgba(34,195,69,1) 0%, rgba(253,174,45,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.tanggal{
+    color:blueviolet;
+    background: rgb(0,255,201);
+    background: linear-gradient(90deg, rgba(0,255,201,1) 46%, rgba(255,0,18,1) 47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#artikel-2{
+    color: coral;
+}
+.artikel-3{
+    color: darkolivegreen;
+}
+.HTML{
+    color: rgb(211, 157, 56);
+}
+.credit-2{
+    color: darkslategrey;
+}
+.credit-3{
+    color: rgb(206, 129, 129);
+}
+#artikel-1{
+    color: rgb(133, 54, 54);
+}

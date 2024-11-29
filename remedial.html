@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <title>remedial</title>
+    </head>
+    <body>
+        <h1 align="center"><i><u> HTML </u></i></h1>
+
+        <h2><p align="center"><i>Pengertian HTML</i></p></h2>
+        <p>"HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk membuat halaman web."</p>
+        <p>HTML itu adalah sebuah bahasa yang menggunakan markup atau penanda untuk membuat halaman web.</p>
+        <p>Penanda atau markup ini, nanti akan kita sebut dengan Tag.</p>
+        <p>HTML berperan untuk menentukan struktur konten dan tampilan dari sebuah web.</p>
+        <hr>
+        
+        <h2><p align="center"><i>Perkembangan HTML</i></h2></p>
+        <ul>
+        <p><li>HTML punya beberapa versi, dari versi yang paling tua hingga yang terbaru. Berikut ini perkembangan versi HTML:</li></p>
+        <p><li>[Draft] HTML 1.0 (Juni 1993) adalah versi HTML pertama, namun tidak resmi dirilis;</li></p>
+        <p><li>HTML 2.0 (24 November 1995) adalah versi HTML kedua yang resmi pertama kali beredar di pasaran dan dirilis oleh IETF;</li></p>
+        <p><li>[Draft] HTML 3.0 (28 Maret 1995) versi ini gagal beredar, karena banyak perubahan yang memicu perdebatan;</li></p>
+        <p><li>HTML 3.2 (14 Januari 1997) versi resmi yang dirilis W3C pertama kali.</li></p>
+        <p><li>HTML 4.0 (24 April 1998) versi pengembangan dari yang sebelumnya;</li></p>
+        <p><li>HTML 4.01 (24 Desember 1999) versi perbaikan dari HTML 4.0;</li></p>
+        <p><li>XHTML 1.0 (26 Januari 2000) pengembangan dari HTML 4.01 dengan mengadopsi XML;</li></p>
+        <p><li>XHTML 2.0 (Augustus 2002—Juli 2006) versi kedua dari XHTML;</li></p>
+        <p><li>HTML 5 (28 Oktober 2014) versi html saat ini.</li></p>
+        </ul>
+        <hr>
+
+        <p>
+          <h2><p align="center"><i>Membuat Tabel pada HTML</i></p></h2>  
+          <p>Tabel dalam HTML digunakan untuk menyusun data dalam format yang terstruktur menggunakan baris dan kolom.</p>
+          <table border="1" cellpadding="10">
+            <tr>
+                <th rowspan="2" bgcolor="#FFFF00">Nama</th>
+                <th rowspan="2" bgcolor="#FFFF00">Foto</th>
+                <th rowspan="2" bgcolor="#FFFF00">Sosmed</th>
+                <th rowspan="2" bgcolor="#FFFF00">Makanan Favorit</th>
+                <th colspan="3" bgcolor="#FFFF00">Lagu Favorit</th>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="#FFFF00">1</td>
+                <td align="center" bgcolor="#FFFF00">2</td>
+                <td align="center" bgcolor="#FFFF00">3</td>
+            </tr>
+            <tr>
+                <td>dillah</td>
+                <td><img src="dodol.jpg" width="70" height="90"></td>
+                <td align="center"><a href='https://www.instagram.com/http.dil4' target='_blank'>instagram</a></td>
+                <td>Bakso</td>
+                <td>Taylor Swift-The Way I Loved You</td><td>Taylor Swift-Slut</td><td>Niki-Backburner</td>
+            </tr>
+            <tr>
+                <td>jeje</td>
+                <td><img src="jjee.jpg" width="70" height="90"></td>
+                <td align="center"><a href='https://www.instagram.com/nfshmaharnyy_' target='_blank'>instagram</a></td>
+                <td>Pangsit</td>
+                <td>Elsya-Trauma</td><td>Mahen-Pura Pura Lupa</td><td>Mahalini-Sial</td>
+            </tr>
+            <tr>
+                <td>Qanita</td>
+                <td><img src="qanit.jpg" width="70" height="90"></td>
+                <td align="center"><a href='https://www.instagram.com/qnt_axh' target='_blank'>instagram</a></td>
+                <td>seblak</td>
+                <td>Bruno Mars-That's What I Like</td><td>Taylor Swift-August</td><td>The Weeknd-Die For You</td>
+            </tr>
+            </table>
+            </p>
+            <hr>
+
+            <p><h2><p align="center"><i>Form pada HTML</i></h2></p>
+            <p>Untuk mengambil informasi dari pengunjung ialah menggunakan form</p>
+            <p>Form dalam web bisa disamakan dengan formulir di dunia nyata</p>
+            <p>Form dapat diisi, kemudian diproses dengan program tertentu</p>
+            <form action="login.php" method="POST">
+                <fieldset>
+                <legend p align="center">Biodata</legend> 
+                <p> 
+                    <label>Nama:</label>
+                    <input type="text" name="Nama" placeholder="Nama..." />
+                </p>
+                <p>
+                    <label>Tempat Lahir:</label>
+                    <input type="text" name="Tempat Lahir" placeholder="Tempat Lahir..." />
+                </p>
+                <p>
+                    <label>Tanggal Lahir:</label>
+                    <input type="date" name="tanggal"/>
+                </p>
+                <p>
+                    <label>Kota:</label>
+                    <select name="Kota">
+                        <option value="Depok">Bandung</option>
+                        <option value="Bandung">Makassar</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Semarang">Semarang</option>
+                        <option value="Manado">Manado</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Provinsi:</label>
+                    <select name="Provinsi">
+                        <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                        <option value="Sumatera Barat">Sulawesi Tenggara</option>
+                        <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                        <option value="Sumatera Utara">Sumatera Utara</option>
+                        <option value="Jawa Barat">Jawa Barat</option>
+                    </select>
+                <p>
+                    <input type="submit" name="submit" value="Submit"/>
+                </p>
+                </fieldset>
+            </form>
+            <hr>
+
+            <p><h2><i>Membuat List pada HTML</i></h2></p>
+            <p>elemen list digunakan untuk membuat daftar item</p>
+            <p>Dalam HTML, daftar (list) digunakan untuk menyusun elemen-elemen dalam bentuk urutan atau poin-poin</p>
+            <p>Ada tiga jenis list utama yaitu:</p>
+            <p>Unordered List ('ul'): Digunakan untuk membuat daftar yang tidak berurutan, biasanya ditandai dengan bullet points</p>
+            <P><b>Contoh:</b></P>
+            <p>
+                <ul>
+                    <li>Ayam</li>
+                    <li>Bakso</li>
+                    <li>Pangsit</li>
+                </ul>
+            </p> 
+            <p>Ordered List ('ol'): Digunakan untuk membuat daftar yang berurutan, biasanya ditandai dengan angka atau huruf</p>
+            <p><b>Contoh:</b></p>
+            <p>
+                <ol>
+                    <li>Mie</li>
+                    <li>Tempe</li>
+                    <li>Tahu</li>
+                </ol>
+            </p>
+            <p>Description List ('dl'): Digunakan untuk membuat daftar deskriptif, yang terdiri dari pasangan nama/deskripsi</p>
+            <p><b>Contoh:</b></p>
+            <p>
+                <dl>
+                    <dt>Teks deskripsi</dt>
+                    <dd>Teks deskripsi adalah jenis teks yang bertujuan untuk menggambarkan suatu objek, tempat, orang, atau suasana secara rinci sehingga pembaca dapat membayangkan apa yang dideskripsikan dengan jelas.</dd>
+                    <dt>Teks Anekdot</dt>
+                    <dd>Teks anekdot adalah jenis teks yang berisi cerita pendek dan lucu yang seringkali menggambarkan kejadian nyata atau peristiwa sehari-hari yang mengandung makna atau pesan tertentu.</dd>
+                </dl>
+            </p>
+            <hr>
+            <p><h2><i>Menambahkan Video pada HTML</i></h2></p>
+            <p>Elemen 'video' digunakan untuk menyisipkan video ke dalam halaman web. Elemen ini mendukung berbagai format video dan dapat dikontrol oleh pengguna (seperti memutar, menjeda, atau mengubah volume) menggunakan kontrol yang disediakan oleh browser.</p>
+            <p>Atribut-Atribut Penting:</p>
+            <p>
+                <dl>
+                    <dt>src</dt>
+                    <dd>Menentukan sumber file video  yang akan ditampilkan</dd>
+                    <dd>Contoh:<i>'src="video.mp4"</i></dd>
+                </dl>
+            </p>
+            <p>
+                <dl>
+                    <dt>controls</dt>
+                    <dd>Menambahkan kontrol pemutar video (play, pause, volume) yang dapat digunakan oleh pengguna.</dd>
+                    <dd>Contoh='controls'</dd>
+                </dl>
+            </p>
+            <p>
+                <dl>
+                    <dt>widht dan height</dt>
+                    <dd>Menentukan lebar dan tinggi tampilan video</dd>
+                    <dd>Contoh:<i>widht="600"' dan 'height="400"'</i></dd>
+                </dl>
+            </p>
+            <p>
+                <dl>
+                    <dt>autoplay</dt>
+                    <dd>Memutar video secara otomatis saat halaman dimuat</dd>
+                    <dd>Contoh:<i>'autoplay'</i></dd>
+                </dl>
+            </p>
+            <p>
+                <dl>
+                    <dt>loop</dt>
+                    <dd>Memutar video secara berulang-ulang tanpa henti</dd>
+                    <dd>Contoh:<i>'muted'</i></dd>
+            </p>
+            <p>
+                <dl>
+                    <dt>muted</dt>
+                    <dd>Memulai video dalam keadaan tanpa suara</dd>
+                    <dd>Contoh:<i>'muted'</i></dd>
+                </dl>
+            </p>
+            <p>
+                <dl>
+                    <dt>poster</dt>
+                    <dd>Menentukan gambar yang ditampilkan sebelum video diputar</dd>
+                    <dd>Contoh:<i>'poster'</i></dd>
+                </dl>
+            </p>
+            <p>
+                <dl>
+                    <dt>preload</dt>
+                    <dd>Menentukan bagaimana browser harus melakukan pra-pemuatan video.</dd>
+                    <dd>Nilai=<i>'none', 'metadata', 'auto'</i></dd>
+                    <dd>Contoh=<i>'preload="auto"'</i></dd>
+            </p>
+            <p>
+                <h1>Video jeje</h1>
+                <video controls width="200" height="190">
+                  <source src="video.mp4" type="video/mp4" />
+                </video>
+            </p>
+    </body>
+</html>
